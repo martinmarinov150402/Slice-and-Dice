@@ -1,0 +1,236 @@
+body
+{
+    margin:0;
+    padding: 0;
+}
+header
+{
+    height:80%;
+    width: 100%;
+    border:0px;
+    overflow: hidden;
+}
+img 
+{
+    height: 100%;
+    width: 100%;
+}
+.activeItem
+{
+    display: inline-block;
+    color:white;
+    
+    margin-top: 1%;
+    font-size:40pt;
+    font-weight: bold;
+}
+.aboutUs
+{
+    padding:0%;
+    margin-top:0%;
+    height:80%;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.aboutUsText
+{
+    margin-top: 3%;
+    font-family: 'Raleway';
+    font-size: 40pt;
+    
+    color:black;
+    display: inline-block;
+}
+.logo
+{
+    position: absolute;
+    color:white;
+    top:6%;
+    left:10%;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 25pt;
+}
+.navbar
+{
+    color:white;
+    position: absolute;
+    display: inline-block;
+    right:15%;
+    top:6%;
+    font-family: 'Raleway' ;
+    font-weight: bold;
+    font-size: 10pt;
+    list-style: none;
+}
+.item
+{
+    float:left;
+}
+li a 
+{
+    display: block;
+    text-align: center;
+    margin-left: 30;   
+}
+.carousel
+{
+    position: absolute;
+    width: 70%;
+    left:15%;
+    height:50%;
+    top:15%;
+    
+}
+.carouselArrowLeft
+{
+
+    width:calc(100%/7);
+    height: 100%;
+    margin-left:0%;
+    display: inline-block;
+}
+.carouselArrowRight
+{
+    width: calc(100%/7);
+    height: 100%;
+    margin-right: 0%;
+    margin-top: 0%;
+    display: inline-block;
+}
+.carouselBody
+{
+    top:0;
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+}
+.carouselText1
+{
+    top:40%;
+    font-family: 'Turret Road';
+    display: block;
+    position: relative;
+    font-size: 40pt;
+    color:white;
+    display: block;
+}
+.carouselText2
+{
+    font-family: 'Raleway';
+    position: relative;
+    font-size: 25pt;
+    color:white;
+    display: block;
+    top:43%;
+}
+.column
+{
+    display: inline-block;
+    margin-top: 2%;
+    margin-right:1%;
+    width:15%;
+    height: 30%;
+}
+.columnItem
+{
+    margin-left:20%;
+    display: block;
+    height: 170px;
+    margin-top:3%;
+    text-align: center;
+    width: 170px;
+    background-color: #bbbbbb;
+    border-radius: 50%;
+}
+.columnText
+{
+    display: block;
+    float:left;
+    font-size:10pt;
+    color:gray;
+    margin-top:10%;
+}
+.learnMore
+{
+    position: relative;
+    padding-top: 9px;
+    display: block;
+    width:190px;
+    font-weight: bold;
+    height:30px;
+    margin-top: 25%;
+    margin-left: 40%;
+    border-radius: 10px;
+    color:white;
+    background-color: lightgreen;
+}
+.learnMore2
+{
+    float:left;
+    position: relative;
+    margin-top: 6%;
+    margin-left: 45%;
+    padding-top: 9px;
+    display: block;
+    width:190px;
+    font-weight: bold;
+    height:30px;
+    border-radius: 10px;
+    color:white;
+    top:0%;
+    background-color: lightgreen;
+}
+.last1
+{
+    display: block;
+    float:left;
+    top:130%;
+    height: 50%;
+    width: 100%;
+    padding-top: 5%;
+    
+    background-color: #dcdcdc;
+}
+.last2
+{
+    display: block;
+    float:left;
+    top:130%;
+    height: 50%;
+    width: 100%;
+    padding-top: 5%;
+    
+    background-color:white;
+}
+.img
+{
+    display: block;
+    margin-top: 0%;
+    margin-left: 20%;
+    height: 250px;
+    width: 300px;
+}
+.img2
+{
+    display: block;
+    margin-top: 0%;
+    margin-right: 20%;
+    height: 250px;
+    width: 300px;
+}
+.learnMore3
+{
+    position: relative;
+    display: block;
+    width:190px;
+    font-weight: bold;
+    padding-top: 9px;
+    height:30px;
+    border-radius: 10px;
+    color:white;
+    background-color: lightgreen;
+}

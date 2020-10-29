@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/animations.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Turret Road">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+        <script src="js/main.js"></script>
+    </head>
+    <body onload="getDots()">
+        <header>
+            <img src="images/background.jpg">
+                <div class="logo">
+                    <span>Alecto</span>
+                    <span style="color:green">.</span>
+                </div>
+            <ul class="navbar">
+                <li class="item"><a>HOME</a></li>
+                <li class="item"><a>ABOUT</a></li>
+                <li class="item"><a>WORK</a></li>
+                <li class="item"><a>SERVICES</a></li>
+                <li class="item"><a>BLOG</a></li>
+            </ul>
+            <div class="carousel">
+                <div class="carouselArrowLeft">
+                    <span style="position: absolute;top:40%; color:white;"><i onclick="prevItem()" class="fas fa-chevron-left fa-6x"></i></span>
+                </div>    
+                <div class="carouselBody">
+                    <p1 class="carouselText1" id="para1"><span style="font-family: 'Raleway'; font-weight: bold; font-size: 40pt;">Alecto</span> is simple PSD Template</p1>
+                    <p2 class="carouselText2" id="para2">Nam varius accumsan elementum aliquam</p2>
+                    <span class="learnMore">Learn more</span>
+                    <span id="dot1" class="activeItem">.</span>
+                    <span id="dot2" class="activeItem">.</span>
+                    <span id="dot3" class="activeItem">.</span>
+                    <span id="dot4" class="activeItem">.</span>
+                    <span id="dot5" class="activeItem">.</span>
+                </div>
+                <div class="carouselArrowRight">
+                    <span style="position:absolute;top:40%; right:0%; color:white;"><i onclick="nextItem()" class="fas fa-chevron-right fa-6x"></i></span>
+                </div>
+            </div>
+            
+        </header>
+
+        <section class="aboutUs" name="aboutUs">
+            <span class="aboutUsText">About us</span>
+            <hr style="border: 1px solid aqua; width:20px; margin-top:30px; margin-bottom: 30px;">
+            <span style="display:block; float:center;color:gray; font-size: 10pt;">Nam varius accumsan elementum. Aliquam fermentum eros in suscipit scelerisque.</span>
+            <section name="column1" class="column">
+                <span class="columnItem">
+                    <span style="display: block; float:left; padding: 25% 25%; "><i class="fas fa-rocket fa-5x fa-align-center"></i></span>
+                </span>
+                <span class="columnText">Nam varius accumsan elementum. Aliquam fermentum eros in suscipit scelerisque.</span>
+            </section>
+
+            <section name="column2" class="column">
+                <span class="columnItem">
+                    <span style="display: block; float: left; padding: 26% 30%; "><i class="fas fa-atom fa-5x"></i></span>
+                </span>
+                <span class="columnText">Nam varius accumsan elementum. Aliquam fermentum eros in suscipit scelerisque.</span>
+            </section>
+
+            <section name="column3" class="column">
+                <span class="columnItem">
+                    <span style="display: block; float: left; padding: 26% 30%; "><i class="fas fa-bell fa-5x"></i></span>
+                </span>
+                <span class="columnText">Nam varius accumsan elementum. Aliquam fermentum eros in suscipit scelerisque.</span>
+            </section>
+
+            <section name="column4" class="column">
+                <span class="columnItem">
+                    <span style="display: block; float: left; padding: 26% 22%; "><i class="fas fa-graduation-cap fa-5x"></i></span>
+                </span>
+                <span class="columnText">Nam varius accumsan elementum. Aliquam fermentum eros in suscipit scelerisque.</span>
+            </section>
+            <span class="learnMore2">Learn more</span>
+        </section>
+
+        <section class="last1">
+            <div style="height:100%; width:20%; display: block; float:left; padding-top: 5%;"><img class="img" src="images/camera.png"></div>
+            <div style="height:100%; width:80%; display: block; float:right; text-align: center;">
+                <span style="font-family: 'Raleway'; color:black; font-size: 44pt; right:0%; ">Lorem ipsum</span>
+
+                <div style="width:34%; text-align: justify; height: 30%;  margin-top: 4%; display: block; margin-left: 30%;">
+                    <span style="font-family: 'Raleway'; color:gray; font-size: 10pt; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisque elementum augue sed est porttitor, ac blandit nisl posuere. Pellentesque hendrerit suscipit mi eu lobortis. Curabitur consectetur enim id elementum accumsan. Quisque metus purus, iaculis id tincidunt non, blandit quis sapien.</span>
+                </div>    
+                <div style="width:57%; display:block; float: right;"><span class="learnMore3">Learn more</span></div>
+            </div>
+
+        </section>
+
+        <section class="last2">
+            <div style="height:100%; width:20%; display: block; float:right; padding-top: 5%;"><img class="img2" src="images/laptop.jpg"></div>
+            <div style="height:100%; width:80%; display: block; float:left; text-align: center;">
+                <span style="font-family: 'Raleway'; color:black; font-size: 44pt; right:0%; ">Dolor sit amet</span>
+
+                <div style="width:34%; text-align: justify; height: 30%;  margin-top: 4%; display: block; margin-left: 30%;">
+                    <span style="font-family: 'Raleway'; color:gray; font-size: 10pt; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisque elementum augue sed est porttitor, ac blandit nisl posuere. Pellentesque hendrerit suscipit mi eu lobortis. Curabitur consectetur enim id elementum accumsan. Quisque metus purus, iaculis id tincidunt non, blandit quis sapien.</span>
+                </div>    
+                <div style="width:57%; display:block; float: right;"><span class="learnMore3">Learn more</span></div>
+            </div>
+
+        </section>
+    </body>
+</html>

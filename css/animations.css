@@ -1,0 +1,32 @@
+.animLeft
+{
+    animation:leftSide 1s 1;
+}
+@keyframes leftSide 
+{
+    from
+    {
+        right:100%;
+    }
+    to
+    {
+        right:0%;
+    }
+}
+.animRight
+{
+    animation:rightSide 1s 1;
+}
+@keyframes rightSide
+{
+    from
+    {
+         
+        left:100%;
+    }
+    to
+    {
+        left:0%;
+        
+    }
+}
